@@ -1,0 +1,21 @@
+# Maintainer: Malte Jürgens <maltejur@dismail.de>
+
+pkgname=CHANGEME
+pkgver=${version}
+pkgrel=1
+pkgdesc="CHANGEME"
+arch=("x86_64")
+url="CHANGEME"
+license=("CHANGEME")
+source=("CHANGEME")
+sha256sums=("${sha256}")
+
+build() {
+  cd $pkgname-$pkgver
+  CHANGEME
+}
+
+package() {
+  cd $pkgname-$pkgver
+  CHANGEME
+}

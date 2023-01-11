@@ -1,0 +1,8 @@
+*
+!*/
+!/*.sh
+!/_template/**
+!/_utils/**
+!/Dockerfile*
+!/.gitignore
+_gh_token
