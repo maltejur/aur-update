@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/bash
 
 if [ "$(uname -m)" == "aarch64" ]; then
   docker pull ghcr.io/menci/archlinuxarm:base-devel

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 set -e
 cd "$(dirname "$0")"
 rm -rf /tmp/aur_update_log
