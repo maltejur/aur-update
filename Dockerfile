@@ -8,7 +8,5 @@ RUN echo "user ALL=(ALL:ALL) NOPASSWD: ALL" >>/etc/sudoers
 
 RUN git clone https://aur.archlinux.org/paru-bin.git && chown user:user paru-bin -R && cd paru-bin && sudo -u user makepkg --noconfirm -si && cd .. && rm -rf paru-bin
 
-RUN sudo -u user paru --noconfirm -S dotnet-sdk-bin
-
 WORKDIR /home/user
 USER user
